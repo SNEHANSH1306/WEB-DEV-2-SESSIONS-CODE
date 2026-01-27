@@ -1,0 +1,21 @@
+1)	Difference b/w var , let and const.
+2)	Explain different types of operators In js.
+3)	Difference b/w “==” and “===”.
+4)	What is hoisting and tdz.
+5)	Explain the different array methods in js.
+    A)	Map() vs filter() vs reduce()
+    B)	Map() vs foreach()
+    C)	Find() vs filter()
+    D)	Same() vs every()
+6)	String methods and object methods.
+7)	Types of functions In js
+    a) Regular function
+    b) Arrow function
+    c) First class function
+    d) Higher order function
+    e) Call back function
+    f) Self invoking function (IIFE)
+    g) Anonymous function
+8) Difference between Object.seal and Object.freeze.
+9) What is execution context and how js code executes in execution context?
+10) What is call stack?
