@@ -19,3 +19,5 @@
 8) Difference between Object.seal and Object.freeze.
 9) What is execution context and how js code executes in execution context?
 10) What is call stack?
+11) Difference between DOM and HTML.
+12) 
