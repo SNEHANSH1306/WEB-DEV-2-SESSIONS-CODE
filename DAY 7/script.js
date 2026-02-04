@@ -38,7 +38,7 @@ setInterval(()=>{
     let min = date.getMinutes();
     let sec = date.getSeconds();
     const clock = document.getElementById('digi-clock');
-    clock.textContent = hour + ':' + min + ':' + sec
+    // clock.textContent = hour + ':' + min + ':' + sec
     clock.textContent = `${hour}:${min}:${sec}`;
     // clock.append(hour,':',min,':',sec)
     // console.log(hour,min,sec);
