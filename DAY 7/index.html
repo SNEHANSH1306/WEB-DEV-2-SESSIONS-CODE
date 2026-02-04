@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* pseudoclass */
+            p:nth-child(2n+1){
+                background-color: cadetblue;
+            }
+
+
+        /* pseudoelement */
+            a:visited{
+                color: red;
+            }
+
+            li::marker{
+                content: "😏"
+            }
+
+            li:hover::marker{
+                content:"😎";
+            }
+    </style>
+</head>
+<body>
+    <!-- <div id="content">
+        <p>This is a paragraph.</p>
+    </div> -->
+
+
+    <!-- Add an image dynamically -->
+    <!-- <div id="gallery">
+
+    </div>
+
+
+    <div id="parent">
+        <p>CHILD PARAGRAPH</p>
+    </div> -->
+
+
+    <ul>
+        <li>SAMPLE</li>
+        <li>SAMPLE</li>
+        <li>SAMPLE</li>
+        <li>SAMPLE</li>
+        <li>SAMPLE</li>
+        <li>SAMPLE</li>
+        <li>SAMPLE</li>
+    </ul>
+
+    <a href="#">HOME</a>
+
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+
+
+    <div id="digi-clock"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

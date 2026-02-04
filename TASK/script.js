@@ -46,6 +46,7 @@
 // TASK 5
 
     // const section = document.getElementById("content");
+    // console.log(section.innerText);
     // console.log(section.textContent);
     // const task5 = section.querySelectorAll("p")
 
@@ -53,5 +54,6 @@
     //     task5[i].style.color = "purple";
     // }
 
+    // const section2= document.getElementById("guest").innerHTML= "<b>Hello world</b>"
 
 
