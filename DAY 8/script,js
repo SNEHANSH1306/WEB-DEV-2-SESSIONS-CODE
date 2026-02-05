@@ -1,0 +1,23 @@
+// document.getElementById("button").style.backgroundColor='Blue'
+// document.getElementById("button").style.color='white'
+// document.getElementById("button").style.border="double"
+// function handleClick(){
+//     document.getElementById("button").textContent='Clicked'
+//     document.getElementById("button").style.color='red'
+//     document.getElementById("h1").style.color='aqua'
+//     document.getElementById("button").style.backgroundColor='yellow'
+//     document.getElementById("button").style.border="dotted"
+//     document.body.style.background='green'
+// }
+
+
+
+
+const addText=()=>{
+    const h2 = document.createElement("h2").textContent="THIS IS A IMAGE";
+    const image = document.createElement('img');
+    image.setAttribute('src','https://media.istockphoto.com/id/176977905/photo/footbridge-color-imagee.jpg?s=612x612&w=0&k=20&c=H2M8UnR9Q42fCLwDUpVW1LDIwVcbP9pHStJdms5NvdI=')
+    image.setAttribute('alt','IAMGGEEEEEE')
+    document.getElementById('render').append(h2)
+    document.getElementById('render').append(image)
+}
