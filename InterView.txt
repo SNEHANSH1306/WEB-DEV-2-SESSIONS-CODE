@@ -3,10 +3,10 @@
 3)	Difference b/w “==” and “===”.
 4)	What is hoisting and tdz.
 5)	Explain the different array methods in js.
-    A)	Map() vs filter() vs reduce()
-    B)	Map() vs foreach()
-    C)	Find() vs filter()
-    D)	Same() vs every()
+    a)	Map() vs filter() vs reduce()
+    b)	Map() vs foreach()
+    c)	Find() vs filter()
+    d)	Same() vs every()
 6)	String methods and object methods.
 7)	Types of functions In js
     a) Regular function
@@ -20,4 +20,14 @@
 9) What is execution context and how js code executes in execution context?
 10) What is call stack?
 11) Difference between DOM and HTML.
-12) 
+12) Difference between text content, inner html and inner text.
+13) Difference between getElemenById and classname.
+14) Explain event handling in Java Script.
+    a) addEventListner (onclick, onchange, onsubmit [event implementation])
+15) What is callbackhell and disadvantages of callbackhell?
+16) Explain the life cycle of promise.
+17) Difference between setTimeout and setInterval.
+18) Discribe the role of eventloop than explain how asynchronous code executes in execution context.
+19) What is promise chaining and its disadvantages.
+20) Expain Async and Await and how it is performs efficiently than promise chaining.
+21) 
