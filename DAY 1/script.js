@@ -1,4 +1,4 @@
-// TDZ: when we declare the variable with let and const without its propoer initialization then the variable lies in temporal dead zone untill its proper initialization.
+// TDZ: when we declare the variable with let and const without its proper initialization then the variable lies in temporal dead zone untill its proper initialization.
 
 
 // Q1.
