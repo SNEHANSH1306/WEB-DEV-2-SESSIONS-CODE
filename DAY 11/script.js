@@ -119,19 +119,20 @@
 
 // WEATHER DATA FETCHING
 
-async function fetchData(city){
-    try{
-        const API_key = "15a8822da5d5d7c6affe4e1f2c68c650";
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_key}&units=metric`);
-        const data = await response.json();
-        console.log(city);
-        console.log(data.main.temp);
-        console.log(data.main.humidity);
+    async function fetchData(city) {
+        try {
+            const API_key = "15a8822da5d5d7c6affe4e1f2c68c650";
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_key}&units=metric`);
+
+            const data = await response.json();
+            console.log("City:", city);
+            console.log("Temperature:", data.main.temp);
+            console.log("Humidity:", data.main.humidity);
+        } catch (err) {
+            console.error(err);
+        }
     }
-    catch (err){
-        console.log(err);
-    }
-}
+    fetchData("Gurugram")
 
 
-fetchData("london")
+
